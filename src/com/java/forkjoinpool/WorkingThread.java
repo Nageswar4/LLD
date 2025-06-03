@@ -32,6 +32,7 @@ public class WorkingThread extends Thread {
 					}
 					continue;
 				}
+				
 				task.run();
 			}
 
